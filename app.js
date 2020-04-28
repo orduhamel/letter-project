@@ -6,8 +6,6 @@ var b1 = document.querySelector('.b1');
 var b2 = document.querySelector('.b2');
 var b3 = document.querySelector('.b3');
 var menuItems = document.querySelectorAll('.menuItem');
-var dot = document.querySelector('.dot');
-var title = document.querySelector('h1');
 var toggle = 0;
 
 
@@ -100,14 +98,7 @@ menuItems.forEach((item) => {
 })
 
 
-title.addEventListener('mouseover', () => {
-  TweenMax.to(dot, 1, {transform: 'translateY(-50%)'});
-})
 
-
-title.addEventListener('mouseleave', () => {
-  TweenMax.to(dot, 1, {transform: 'translateY(50%)'});
-})
 
 
 
