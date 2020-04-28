@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Cardo', serif;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
